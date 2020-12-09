@@ -1,0 +1,54 @@
+
+.promo_item_h1-active{
+    opacity: 1 !important;
+    animation: someIn_promotitle 1.5s linear;
+}
+.promo_item_h2-active{
+    opacity: 1 !important;
+    animation: someIn_promosubtitle 1.5s linear;
+}
+.promo_item_h3-active{
+    opacity: 1 !important;
+    animation: someIn_promosubtitlemin 1.5s linear;
+}
+.promo_item_rocket-active{
+    opacity: 1 !important;
+    animation: someIn_rocket 5s linear;
+}
+@keyframes someIn_promotitle{
+    from{
+        transform: translateY(-50px) scale(0.1);
+    }
+    to{
+        transform: translateY(0px) scale(1);
+        
+    }
+}
+@keyframes someIn_promosubtitle{
+    from{
+        transform: translateX(-250px) scale(0.2);
+    }
+    to{
+        transform: translateX(0px) scale(1);
+        
+    }
+}
+@keyframes someIn_promosubtitlemin{
+    from{
+        transform: translateX(250px) scale(0.2);
+    }
+    to{
+        transform: translateX(0px) scale(1);
+        
+    }
+}
+@keyframes someIn_rocket{
+    from{
+        
+        transform: translateX(-250px) scale(0.9);
+    }
+    to{
+        transform: translateX(1880px) scale(1);
+        
+    }
+}
